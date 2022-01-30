@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &867081632660924779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867081632660924757}
+  - component: {fileID: 867081632660924756}
+  m_Layer: 0
+  m_Name: WavwSpawnerEasy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &867081632660924757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867081632660924779}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -101.58, y: 2.128, z: -24.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &867081632660924756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867081632660924779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b21452eac195864493ff22fb468b833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - enemy: {fileID: 1715103906888602, guid: 33b828b8f1c31334988de54e3fe47ee6, type: 3}
+    Count: 20
+    rate: 2
+  - enemy: {fileID: 4427683765692410404, guid: ac4d0424e92661d4f827d34950eaa103, type: 3}
+    Count: 15
+    rate: 2
+  - enemy: {fileID: 7863397090554969545, guid: 21e91d0246110bb4eaf31674b199d17b, type: 3}
+    Count: 5
+    rate: 2
+  - enemy: {fileID: 5947781473295818069, guid: 7dc623f100b68b34dbe062ecf1a825dd, type: 3}
+    Count: 1
+    rate: 2
+  - enemy: {fileID: 1715103906888602, guid: 6fb14498538826b44b4a9f40862175b8, type: 3}
+    Count: 25
+    rate: 2
+  - enemy: {fileID: 4427683765692410404, guid: eab59468b84526248a523b03e7f0cd65, type: 3}
+    Count: 20
+    rate: 2
+  - enemy: {fileID: 7863397090554969545, guid: a7ed443876d7035478e6417f1f49da94, type: 3}
+    Count: 8
+    rate: 2
+  - enemy: {fileID: 5947781473295818069, guid: 67e07151c4911474eb8ef494980ce1d3, type: 3}
+    Count: 1
+    rate: 2
+  - enemy: {fileID: 1715103906888602, guid: 35d1d8333d720d044b4ae22dc03151e0, type: 3}
+    Count: 30
+    rate: 2
+  - enemy: {fileID: 4427683765692410404, guid: a9c5da41d3e4da1468ca3f6ae2b50470, type: 3}
+    Count: 25
+    rate: 2
+  - enemy: {fileID: 7863397090554969545, guid: 52f5fb252fb5ee64eacc5a211abc9087, type: 3}
+    Count: 10
+    rate: 2
+  - enemy: {fileID: 5947781473295818069, guid: d1467fd46802a4b45a29444afc561137, type: 3}
+    Count: 1
+    rate: 2
+  Enemigo: {fileID: 0}
+  SpawnPoint: {fileID: 867081632660924757}
+  gameManager: {fileID: 0}
+  TimeNextWave: {fileID: 0}
